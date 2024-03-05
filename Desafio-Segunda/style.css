@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+.image {
+    display: block;
+    text-align: center;
+    padding-top: 60px;
+  }
+  
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fafafa;
+}
+
+label {
+    padding-right: 22rem;
+}
+
+#email {
+    width: 400px;
+    height: 35px;
+    margin-bottom: 8px;
+    color: white;
+    background: #313131;
+    border: 1px solid white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#password {
+    width: 400px;
+    height: 35px;
+    margin-bottom: 38px;
+    color: white;
+    background: #313131;
+    border: 1px solid white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.enviar {
+    background: green;
+    color: white;
+    border: none;
+    width: 185px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
